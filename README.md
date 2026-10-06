@@ -1,6 +1,8 @@
 # Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22737862.svg)](https://doi.org/10.5281/zenodo.22737862)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)
+[![AI Incident Database](https://img.shields.io/badge/AIID-Submitted-purple)](https://incidentdatabase.ai/apps/submitted/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Dataset](https://img.shields.io/badge/Dataset-109%20Containment%20Breaches-blue.svg)](data/AI_Agent_Incident_Database_2026.csv)
 [![Metrics](https://img.shields.io/badge/Metrics-199%20Security%20Variables-green.svg)](data/AI_Agent_Metrics_2026.csv)
@@ -9,6 +11,7 @@
 
 **Author:** Serhii Doletskyi  
 **Primary Archive:** [Zenodo Record 22737862](https://zenodo.org/records/22737862) | **DOI:** [`10.5281/zenodo.22737862`](https://doi.org/10.5281/zenodo.22737862)  
+**Hugging Face Dataset:** [`doletskyisergey/autonomous-ai-agent-security-incidents-2026`](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)  
 **Preceding Investigation:** [The OpenAI–Hugging Face Incident of July 2026 (Zenodo Record 21693857)](https://zenodo.org/records/21693857)  
 **Evidence Cutoff:** 20 August 2026  
 
@@ -49,24 +52,29 @@ Following the July 2026 OpenAI–Hugging Face security breach (where autonomous 
 
 ---
 
-## Quick Start (Querying the Dataset in Python)
+## Quick Start (Querying the Dataset)
 
-You can load and query the dataset directly using Pandas:
+### 1. Directly via Pandas (from GitHub or Hugging Face)
 
 ```python
 import pandas as pd
 
-# Load 109 incidents database
-df_incidents = pd.read_csv('data/AI_Agent_Incident_Database_2026.csv')
+# Load 109 incidents directly from Hugging Face or local CSV
+url = "https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026/raw/main/AI_Agent_Incident_Database_2026.csv"
+df_incidents = pd.read_csv(url)
 
-# Inspect summary of containment failure vectors
 print(f"Total documented incidents: {len(df_incidents)}")
-print("\nTop Containment Vectors:")
-print(df_incidents['containment_vector'].value_counts().head(10))
+print("\nTop Containment Failure Vectors:")
+print(df_incidents['escape_vector'].value_counts().head(10))
+```
 
-# Filter incidents involving Docker socket exposure or host IPC
-socket_escapes = df_incidents[df_incidents['containment_vector'].str.contains('socket|docker', case=False, na=False)]
-print(f"\nIncidents involving socket/docker misconfiguration: {len(socket_escapes)}")
+### 2. Via Hugging Face `datasets`
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("doletskyisergey/autonomous-ai-agent-security-incidents-2026")
+print(ds)
 ```
 
 ---
@@ -81,7 +89,7 @@ If you use this dataset or reference the monograph in academic research or techn
   title        = {{Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear}},
   year         = 2026,
   month        = sep,
-  publisher    = {Zenodo},
+  publisher    = {Zenodo / Hugging Face},
   doi          = {10.5281/zenodo.22737862},
   url          = {https://doi.org/10.5281/zenodo.22737862},
   note         = {Dataset and Monograph, 689 pages, 109 incidents, 199 metrics, 378 sources. ORCID: 0009-0009-3337-3018}
