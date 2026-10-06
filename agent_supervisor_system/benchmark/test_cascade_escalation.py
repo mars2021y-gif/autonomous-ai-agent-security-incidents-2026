@@ -15,10 +15,7 @@ from ..benchmark.metrics import ContainmentMetricsCalculator
 
 class TestCascadeEscalationAndConfusedDeputy(unittest.TestCase):
     def setUp(self):
-        self.temp_jail = tempfile.mkdtemp(
-            prefix="test_agent_jail_",
-            dir="/Users/rubeeroyd/.gemini/antigravity-ide/scratch"
-        )
+        self.temp_jail = tempfile.mkdtemp(prefix="test_agent_jail_")
         self.supervisor = SupervisorAgent(agent_id="sup-test", name="TestSupervisor")
         # Override jail path with temp
         self.supervisor.jail.jail_root = Path(self.temp_jail).resolve()
