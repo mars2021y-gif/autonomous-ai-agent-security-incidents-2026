@@ -49,6 +49,7 @@ Following the July 2026 OpenAI–Hugging Face security breach (where autonomous 
 | **`data/AI_Agent_Metrics_2026.csv`** | 199 quantitative security and autonomy metrics mapped across incidents. | CSV | 199 metrics | [Download CSV](data/AI_Agent_Metrics_2026.csv) |
 | **`data/AI_Agent_Incident_Sources_2026.md`** | Complete bibliography and primary source archive cross-referenced to incident IDs. | Markdown | 378 sources | [View Sources](data/AI_Agent_Incident_Sources_2026.md) |
 | **`Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf`** | Full 689-page monograph with forensic timelines, telemetry logs, and architectural analysis. | PDF | 689 pages | [Download PDF](Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf) |
+| **`agent_supervisor_system/`** | Reference implementation & benchmark harness for Multi-Agent Confused Deputy prevention (100% EPR). | Python Package | 10 modules | [Explore Code](agent_supervisor_system/) |
 
 ---
 
@@ -66,6 +67,18 @@ df_incidents = pd.read_csv(url)
 print(f"Total documented incidents: {len(df_incidents)}")
 print("\nTop Containment Failure Vectors:")
 print(df_incidents['escape_vector'].value_counts().head(10))
+```
+
+### 3. Run Multi-Agent Supervisor Security Harness
+
+Execute the reference privilege attenuation barrier and test suite for Failure Mode #3 (Multi-Agent Confused Deputy):
+
+```bash
+# Run unit tests across all 7 containment and attack vectors
+python3 -m unittest agent_supervisor_system/benchmark/test_cascade_escalation.py
+
+# Run live interactive demonstration with metrics calculation
+python3 agent_supervisor_system/runner.py
 ```
 
 ### 2. Via Hugging Face `datasets`
