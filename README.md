@@ -3,6 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22737862.svg)](https://doi.org/10.5281/zenodo.22737862)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)
 [![AI Incident Database](https://img.shields.io/badge/AIID-Submitted-purple)](https://incidentdatabase.ai/apps/submitted/)
+[![CI](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Dataset](https://img.shields.io/badge/Dataset-109%20Containment%20Breaches-blue.svg)](data/AI_Agent_Incident_Database_2026.csv)
 [![Metrics](https://img.shields.io/badge/Metrics-199%20Security%20Variables-green.svg)](data/AI_Agent_Metrics_2026.csv)
