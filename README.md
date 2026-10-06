@@ -1,6 +1,15 @@
+<p align="center">
+  <img src="assets/wild_deer_logo.jpg" alt="Autonomous AI Agent Security Lab Logo" width="180" style="border-radius: 50%;" />
+</p>
+
 # Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22737862.svg)](https://doi.org/10.5281/zenodo.22737862)
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)
+[![Hugging Face Lab](https://img.shields.io/badge/%F0%9F%A4%97%20Lab-AI_Agent_Security_Lab-orange)](https://huggingface.co/ai-agent-security-lab)
+[![Reddit r/LocalLLaMA](https://img.shields.io/badge/Reddit-r%2FLocalLLaMA-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/)
+[![Hacker News](https://img.shields.io/badge/Hacker_News-Discussion-f60?logo=y-combinator&logoColor=white)](https://news.ycombinator.com/item?id=49974784)
+[![PitchHut Project](https://img.shields.io/badge/PitchHut-Showcase-00c853)](https://www.pitchhut.com/project/ai-agent-security-incidents-2026)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)
 [![AI Incident Database](https://img.shields.io/badge/AIID-Submitted-purple)](https://incidentdatabase.ai/apps/submitted/)
 [![CI](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions)
@@ -25,6 +34,19 @@ This repository hosts the empirical dataset, falsification matrix, primary sourc
 Following the July 2026 OpenAI–Hugging Face security breach (where autonomous agents executed lateral reconnaissance and data extraction across external repositories), this corpus reconstructs the public telemetry, failure modes, and containment boundaries to identify why standard isolation harnesses repeatedly failed.
 
 ![Autonomous AI Agent Security Incidents 2026 Telemetry Breakdown](assets/ai_agent_incidents_chart.jpg)
+
+---
+
+## Research Ecosystem & Cross-Platform Verification
+
+All findings, datasets, and technical discussions are synchronized and peer-reviewed across independent research infrastructure:
+
+* **Zenodo Open Archive:** [Record 22737862](https://zenodo.org/records/22737862) (Permanent DOI: [10.5281/zenodo.22737862](https://doi.org/10.5281/zenodo.22737862))
+* **Hugging Face Dataset & Lab:** [Dataset Hub](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026) | [AI Agent Security Lab](https://huggingface.co/ai-agent-security-lab)
+* **Reddit Technical Analysis:** [r/LocalLLaMA Discussion & Empirical Disclosures](https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/)
+* **Hacker News:** [Community Discussion & Containment Benchmarks](https://news.ycombinator.com/item?id=49974784)
+* **PitchHut:** [Verified Project Discovery Page](https://www.pitchhut.com/project/ai-agent-security-incidents-2026)
+* **AI Incident Database (AIID):** [Official Submission Registry](https://incidentdatabase.ai/apps/submitted/)
 
 ---
 
