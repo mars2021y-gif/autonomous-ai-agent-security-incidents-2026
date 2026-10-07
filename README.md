@@ -137,4 +137,6 @@ If you use this dataset or reference the monograph in academic research or techn
 
 ## License
 
-This dataset and monograph are published under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the material for any purpose, provided appropriate credit is given.
+This project is dual-licensed:
+- **Software Code & Harness** (`agent_supervisor_system/`, tests, tooling): [MIT License](LICENSE) (SPDX: `MIT`).
+- **Research Datasets, Benchmark Matrices & Monograph** (`data/`, `Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf`): [Creative Commons Attribution 4.0 International](LICENSE-DATA) (SPDX: `CC-BY-4.0`).
