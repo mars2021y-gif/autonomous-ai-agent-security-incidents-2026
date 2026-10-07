@@ -2,6 +2,10 @@
   <img src="assets/wild_deer_logo.jpg" alt="Autonomous AI Agent Security Lab Logo" width="180" style="border-radius: 50%;" />
 </p>
 
+<p align="center">
+  <img src="assets/social-preview.png" alt="Autonomous AI Agent Security Incidents 2026 Overview Banner" width="100%" />
+</p>
+
 # Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22737862.svg)](https://doi.org/10.5281/zenodo.22737862)
@@ -10,10 +14,9 @@
 [![Reddit r/LocalLLaMA](https://img.shields.io/badge/Reddit-r%2FLocalLLaMA-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/)
 [![Hacker News](https://img.shields.io/badge/Hacker_News-Discussion-f60?logo=y-combinator&logoColor=white)](https://news.ycombinator.com/item?id=49974784)
 [![PitchHut Project](https://img.shields.io/badge/PitchHut-Showcase-00c853)](https://www.pitchhut.com/project/ai-agent-security-incidents-2026)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)
-[![AI Incident Database](https://img.shields.io/badge/AIID-Submitted-purple)](https://incidentdatabase.ai/apps/submitted/)
 [![CI](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: MIT](https://img.shields.io/badge/Code_License-MIT-green.svg)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-lightgrey.svg)](LICENSE-DATA)
 [![Dataset](https://img.shields.io/badge/Dataset-109%20Containment%20Breaches-blue.svg)](data/AI_Agent_Incident_Database_2026.csv)
 [![Metrics](https://img.shields.io/badge/Metrics-199%20Security%20Variables-green.svg)](data/AI_Agent_Metrics_2026.csv)
 [![Monograph](https://img.shields.io/badge/Monograph-689%20Pages%20PDF-red.svg)](Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf)
