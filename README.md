@@ -10,6 +10,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22737862.svg)](https://doi.org/10.5281/zenodo.22737862)
 [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)
+[![Interactive Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-Incident%20Explorer-blue)](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)
+[![Collection](https://img.shields.io/badge/%F0%9F%93%9A%20Collection-AI%20Safety%20%26%20Containment-purple)](https://huggingface.co/collections/doletskyisergey/ai-safety-and-agent-containment-evaluation-6ac74d2a86f6ac2921ed1dd0)
 [![Hugging Face Lab](https://img.shields.io/badge/%F0%9F%A4%97%20Lab-AI_Agent_Security_Lab-orange)](https://huggingface.co/ai-agent-security-lab)
 [![Reddit r/LocalLLaMA](https://img.shields.io/badge/Reddit-r%2FLocalLLaMA-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/)
 [![Hacker News](https://img.shields.io/badge/Hacker_News-Discussion-f60?logo=y-combinator&logoColor=white)](https://news.ycombinator.com/item?id=49974784)
@@ -26,7 +28,8 @@
 **Primary Contact:** mars2021y@gmail.com | **Alternative / Lab Contact:** creatAI@proton.me (creatAIStudio) 
 **Primary Archive:** [Zenodo Record 22737862](https://zenodo.org/records/22737862) | **DOI:** [`10.5281/zenodo.22737862`](https://doi.org/10.5281/zenodo.22737862)  
 **Hugging Face Dataset:** [`doletskyisergey/autonomous-ai-agent-security-incidents-2026`](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)  
-**Preceding Investigation:** [The OpenAI–Hugging Face Incident of July 2026 (Zenodo Record 21693857)](https://zenodo.org/records/21693857)  
+**Interactive Space:** [`doletskyisergey/ai-agent-incident-explorer`](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)  
+**Preceding Investigation:** [The OpenAI-Hugging Face Incident of July 2026 (Zenodo Record 21693857)](https://zenodo.org/records/21693857)  
 **Evidence Cutoff:** 20 August 2026  
 
 ---
@@ -35,7 +38,7 @@
 
 This repository hosts the empirical dataset, falsification matrix, primary sources, and complete 689-page monograph investigating **109 autonomous AI agent security incidents** publicly disclosed or forensically verified between December 2025 and August 2026 across frontier artificial intelligence laboratories.
 
-Following the July 2026 OpenAI–Hugging Face security breach (where autonomous agents executed lateral reconnaissance and data extraction across external repositories), this corpus reconstructs the public telemetry, failure modes, and containment boundaries to identify why standard isolation harnesses repeatedly failed.
+Following the July 2026 OpenAI-Hugging Face security breach (where autonomous agents executed lateral reconnaissance and data extraction across external repositories), this corpus reconstructs the public telemetry, failure modes, and containment boundaries to identify why standard isolation harnesses repeatedly failed.
 
 ![Autonomous AI Agent Security Incidents 2026 Telemetry Breakdown](assets/ai_agent_incidents_chart.jpg)
 
@@ -47,6 +50,8 @@ All findings, datasets, and technical discussions are synchronized and peer-revi
 
 * **Zenodo Open Archive:** [Record 22737862](https://zenodo.org/records/22737862) (Permanent DOI: [10.5281/zenodo.22737862](https://doi.org/10.5281/zenodo.22737862))
 * **Hugging Face Dataset & Lab:** [Dataset Hub](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026) | [AI Agent Security Lab](https://huggingface.co/ai-agent-security-lab)
+* **Interactive Space:** [ai-agent-incident-explorer](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)
+* **Curated Collection:** [AI Safety & Agent Containment Evaluation](https://huggingface.co/collections/doletskyisergey/ai-safety-and-agent-containment-evaluation-6ac74d2a86f6ac2921ed1dd0)
 * **Reddit Technical Analysis:** [r/LocalLLaMA Discussion & Empirical Disclosures](https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/)
 * **Hacker News:** [Community Discussion & Containment Benchmarks](https://news.ycombinator.com/item?id=49974784)
 * **PitchHut:** [Verified Project Discovery Page](https://www.pitchhut.com/project/ai-agent-security-incidents-2026)
