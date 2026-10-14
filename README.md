@@ -17,6 +17,8 @@
 [![Hacker News](https://img.shields.io/badge/Hacker_News-Discussion-f60?logo=y-combinator&logoColor=white)](https://news.ycombinator.com/item?id=49974784)
 [![PitchHut Project](https://img.shields.io/badge/PitchHut-Showcase-00c853)](https://www.pitchhut.com/project/ai-agent-security-incidents-2026)
 [![CI](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions)
+[![GitHub Stars](https://img.shields.io/github/stars/mars2021y-gif/autonomous-ai-agent-security-incidents-2026?style=social)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/stargazers)
+[![Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?logo=github)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/discussions)
 [![License: MIT](https://img.shields.io/badge/Code_License-MIT-green.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-lightgrey.svg)](LICENSE-DATA)
 [![Dataset](https://img.shields.io/badge/Dataset-109%20Containment%20Breaches-blue.svg)](data/AI_Agent_Incident_Database_2026.csv)
@@ -102,6 +104,15 @@ print("\nTop Containment Failure Vectors:")
 print(df_incidents['escape_vector'].value_counts().head(10))
 ```
 
+### 2. Via Hugging Face `datasets`
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("doletskyisergey/autonomous-ai-agent-security-incidents-2026")
+print(ds)
+```
+
 ### 3. Run Multi-Agent Supervisor Security Harness
 
 Execute the reference privilege attenuation barrier and test suite for Failure Mode #3 (Multi-Agent Confused Deputy):
@@ -114,14 +125,22 @@ python3 -m unittest agent_supervisor_system/benchmark/test_cascade_escalation.py
 python3 agent_supervisor_system/runner.py
 ```
 
-### 2. Via Hugging Face `datasets`
+---
 
-```python
-from datasets import load_dataset
+## Community, Feedback & Star History
 
-ds = load_dataset("doletskyisergey/autonomous-ai-agent-security-incidents-2026")
-print(ds)
-```
+We welcome contributions, bug reports, and incident disclosures from the AI safety and security research community:
+
+- **Star the Project**: If this empirical corpus, benchmark harness, or monograph aids your research, please consider starring the repository to support open AI security standards.
+- **Submit Incidents**: See open [RFC #1: Submitting Empirical Incidents (2026 Corpus)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/issues/1).
+- **Architecture Roadmap**: Join the discussion on microVM containment in [RFC #2: Extending Barrier to MicroVM Jails (gVisor / Firecracker)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/issues/2).
+- **Discussions**: Share feedback, containment architectures, or questions in [GitHub Discussions](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/discussions).
+
+<p align="center">
+  <a href="https://star-history.com/#mars2021y-gif/autonomous-ai-agent-security-incidents-2026&Date">
+    <img src="https://api.star-history.com/svg?repos=mars2021y-gif/autonomous-ai-agent-security-incidents-2026&type=Date" alt="Star History Chart" width="750" />
+  </a>
+</p>
 
 ---
 
