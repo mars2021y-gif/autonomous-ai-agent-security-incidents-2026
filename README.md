@@ -56,6 +56,7 @@ All findings, datasets, and technical discussions are synchronized and peer-revi
 * **Hacker News:** [Community Discussion & Containment Benchmarks](https://news.ycombinator.com/item?id=49974784)
 * **PitchHut:** [Verified Project Discovery Page](https://www.pitchhut.com/project/ai-agent-security-incidents-2026)
 * **AI Incident Database (AIID):** [Official Submission Registry](https://incidentdatabase.ai/apps/submitted/)
+* **XERJ Corpus Hub:** [Selected Corpus Entry](https://github.com/xerj-org/xerj)
 
 ---
 
