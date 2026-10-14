@@ -1,0 +1,44 @@
+name: Empirical AI Agent Incident Report
+description: Submit a newly observed or verified autonomous AI agent security failure.
+title: "[Incident]: "
+labels: ["incident-submission", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an empirical AI agent containment failure or security incident.
+  - type: input
+    id: agent_runtime
+    attributes:
+      label: Agent Runtime or Architecture
+      description: What agent framework, model, or harness was involved?
+      placeholder: e.g. OpenHands, SWE-agent, AutoGen, custom multi-agent harness
+    validations:
+      required: true
+  - type: dropdown
+    id: failure_category
+    attributes:
+      label: Failure Mode Category
+      options:
+        - Host socket exposure (Docker/container escape)
+        - Ambient token / credential residue recovery
+        - Multi-agent confused deputy cascade
+        - Indirect prompt injection via tool output
+        - Unconstrained egress network reach (SSRF/IMDS)
+        - Other containment boundary breach
+    validations:
+      required: true
+  - type: textarea
+    id: incident_description
+    attributes:
+      label: Incident Description & Timeline
+      description: Provide forensic chronology, failure conditions, and observed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: primary_sources
+    attributes:
+      label: Primary Sources / Telemetry
+      description: Links to public disclosures, commits, bug bounty references, or telemetry logs.
+    validations:
+      required: true
