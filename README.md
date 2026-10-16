@@ -9,8 +9,8 @@
 # Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22737862.svg)](https://doi.org/10.5281/zenodo.22737862)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-blue)](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)
 [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)
-[![Interactive Space](https://img.shields.io/badge/%F0%9F%A4%97%20Space-Incident%20Explorer-blue)](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)
 [![Collection](https://img.shields.io/badge/%F0%9F%93%9A%20Collection-AI%20Safety%20%26%20Containment-purple)](https://huggingface.co/collections/doletskyisergey/ai-safety-and-agent-containment-evaluation-6ac74d2a86f6ac2921ed1dd0)
 [![Hugging Face Lab](https://img.shields.io/badge/%F0%9F%A4%97%20Lab-AI_Agent_Security_Lab-orange)](https://huggingface.co/ai-agent-security-lab)
 [![Reddit r/LocalLLaMA](https://img.shields.io/badge/Reddit-r%2FLocalLLaMA-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/)
