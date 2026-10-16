@@ -19,6 +19,7 @@
 [![CI](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions)
 [![GitHub Stars](https://img.shields.io/github/stars/mars2021y-gif/autonomous-ai-agent-security-incidents-2026?style=social)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/stargazers)
 [![Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?logo=github)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/discussions)
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/mars2021y-gif)
 [![License: MIT](https://img.shields.io/badge/Code_License-MIT-green.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-lightgrey.svg)](LICENSE-DATA)
 [![Dataset](https://img.shields.io/badge/Dataset-109%20Containment%20Breaches-blue.svg)](data/AI_Agent_Incident_Database_2026.csv)
@@ -141,6 +142,22 @@ We welcome contributions, bug reports, and incident disclosures from the AI safe
     <img src="https://api.star-history.com/svg?repos=mars2021y-gif/autonomous-ai-agent-security-incidents-2026&type=Date" alt="Star History Chart" width="750" />
   </a>
 </p>
+
+---
+
+## Commercial Licensing, Consulting & Enterprise Security Audits
+
+While the empirical database is open access and the benchmark harness is licensed under MIT, **creatAIStudio** provides specialized commercial services for enterprise AI laboratories and platforms:
+
+1. **Autonomous Agent Red-Teaming & Containment Audits**:
+   - Verification of subagent isolation boundaries and credential attenuation.
+   - Host escape analysis across Docker, gVisor, and microVM environments.
+   - Indirect prompt injection and Confused Deputy resilience testing.
+2. **Custom Benchmarks & Empirical Falsification**:
+   - Implementation of proprietary containment test batteries against your internal orchestration pipelines.
+3. **Research Sponsorship & Commercial Advisory**:
+   - Sponsor continued maintenance and independent forensic verification of frontier AI agent incidents.
+   - For consulting or sponsorship inquiries: contact **creatAI@proton.me** or support the project via [GitHub Sponsors](https://github.com/sponsors/mars2021y-gif).
 
 ---
 
