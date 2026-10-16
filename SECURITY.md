@@ -16,7 +16,7 @@ If you have discovered:
 3. A reproducibility issue or falsification vector against claims in `data/AI_Agent_Evidence_Matrix_2026.csv`.
 
 Please submit disclosures via:
-- **Email:** mars2021y@gmail.com (Alternative / Lab: creatAI@proton.me)
+- **Email:** creatAI@proton.me (creatAIStudio)
 - **GitHub Discussions / Issues:** Use the [Call for Data RFC](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/issues/1) template for public incident submissions.
 
 All verified submissions are reviewed within 48 hours and attributed in the open corpus and evidence matrix.

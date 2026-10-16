@@ -28,7 +28,7 @@
 [![ORCID](https://img.shields.io/badge/Author-Serhii%20Doletskyi%20(ORCID)-0000-0002-1825-0097?logo=orcid&color=A6CE39)](https://orcid.org/0009-0009-3337-3018)
 
 **Author & Lab:** Serhii Doletskyi / creatAIStudio  
-**Primary Contact:** mars2021y@gmail.com | **Alternative / Lab Contact:** creatAI@proton.me (creatAIStudio) 
+**Lab & Research Contact:** creatAI@proton.me (creatAIStudio)  
 **Primary Archive:** [Zenodo Record 22737862](https://zenodo.org/records/22737862) | **DOI:** [`10.5281/zenodo.22737862`](https://doi.org/10.5281/zenodo.22737862)  
 **Hugging Face Dataset:** [`doletskyisergey/autonomous-ai-agent-security-incidents-2026`](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)  
 **Interactive Space:** [`doletskyisergey/ai-agent-incident-explorer`](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)  
