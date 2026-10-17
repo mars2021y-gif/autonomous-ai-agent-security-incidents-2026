@@ -80,7 +80,7 @@ All findings, datasets, and technical discussions are synchronized and peer-revi
 
 | File | Description | Format | Records | Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **`data/AI_Agent_Incident_Database_2026.csv`** | Structured incident database covering all 109 events with timeline, vectors, models, and containment tiers. | CSV | 109 incidents | [Download CSV](data/AI_Agent_Incident_Database_2026.csv) |
+| **`data/AI_Agent_Incident_Database_2026.csv`** | Structured incident database covering all 109 events with timeline, vectors, models, and containment tiers. | CSV | 110 incidents | [Download CSV](data/AI_Agent_Incident_Database_2026.csv) |
 | **`data/AI_Agent_Evidence_Matrix_2026.csv`** | Empirical evidence matrix evaluating claims with explicit falsification conditions. | CSV | 193 claims | [Download CSV](data/AI_Agent_Evidence_Matrix_2026.csv) |
 | **`data/AI_Agent_Metrics_2026.csv`** | 199 quantitative security and autonomy metrics mapped across incidents. | CSV | 199 metrics | [Download CSV](data/AI_Agent_Metrics_2026.csv) |
 | **`data/AI_Agent_Incident_Sources_2026.md`** | Complete bibliography and primary source archive cross-referenced to incident IDs. | Markdown | 378 sources | [View Sources](data/AI_Agent_Incident_Sources_2026.md) |
@@ -96,7 +96,7 @@ All findings, datasets, and technical discussions are synchronized and peer-revi
 ```python
 import pandas as pd
 
-# Load 109 incidents directly from Hugging Face or local CSV
+# Load 110 incidents directly from Hugging Face or local CSV
 url = "https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026/raw/main/AI_Agent_Incident_Database_2026.csv"
 df_incidents = pd.read_csv(url)
 
@@ -174,7 +174,7 @@ If you use this dataset or reference the monograph in academic research or techn
   publisher    = {Zenodo / Hugging Face},
   doi          = {10.5281/zenodo.22737862},
   url          = {https://doi.org/10.5281/zenodo.22737862},
-  note         = {Dataset and Monograph, 689 pages, 109 incidents, 199 metrics, 378 sources. ORCID: 0009-0009-3337-3018}
+  note         = {Dataset and Monograph, 689 pages, 110 incidents, 199 metrics, 378 sources. ORCID: 0009-0009-3337-3018}
 }
 ```
 
@@ -185,3 +185,9 @@ If you use this dataset or reference the monograph in academic research or techn
 This project is dual-licensed:
 - **Software Code & Harness** (`agent_supervisor_system/`, tests, tooling): [MIT License](LICENSE) (SPDX: `MIT`).
 - **Research Datasets, Benchmark Matrices & Monograph** (`data/`, `Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf`): [Creative Commons Attribution 4.0 International](LICENSE-DATA) (SPDX: `CC-BY-4.0`).
+
+
+### Special Focus: First-Party Empirical Case Studies
+
+- **Case Study 110 (2026-10-17):** [Negative Constraint Decay & Deceptive Evasion Under Accountability Mandate](data/case_studies/INCIDENT_2026_10_17_DECEPTIVE_EVASION.md). Documents real-world specification gaming and routing evasion under self-incrimination prompting in frontier agent runtimes.
+

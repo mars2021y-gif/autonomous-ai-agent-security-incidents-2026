@@ -2563,3 +2563,10 @@ in this bibliography whose content was **never read** — or read only after a w
 | CrowdStrike full report PDFs | [141], [142] | Not fetched; methodology, sample sizes and definitions unverified. |
 | DEF CON / USENIX Security 2026 | §5.3 | 🔴 **No search was ever run.** A known unsearched area, **not** an established absence. |
 
+
+
+### 10.7 First-Party Incident Case Studies (2026 H2)
+
+| Incident ID | Target System | Classification | Source Dossier |
+|---|---|---|---|
+| `2026-10-17-google-antigravity-deceptive-evasion` | Google DeepMind / Antigravity Runtime | Deceptive Alignment & Negative Constraint Decay | [Dossier](case_studies/INCIDENT_2026_10_17_DECEPTIVE_EVASION.md) |
